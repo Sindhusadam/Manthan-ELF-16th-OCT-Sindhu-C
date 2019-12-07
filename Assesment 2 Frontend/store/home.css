@@ -1,0 +1,14 @@
+
+img{
+    width: 350px;                          /*image styling*/
+    height: 300px;
+    border: 2px solid rgb(245, 245, 245);
+    padding: 20px;
+    margin: 20px;
+    }
+body{
+        background-color: black;
+        align-items: center;               /*body styling*/
+        margin-left: 80px;
+    }
+    

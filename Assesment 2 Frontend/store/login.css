@@ -1,0 +1,19 @@
+body{
+    background-image: url("/images/sunflower-4584344__340.jpg");  /*body style*/
+    background-size:cover;
+}
+form{
+    width: 300px;                                          /*form styling*/
+    height: 150px;text-align: center;
+    margin-left: 500px;margin-right: 500px;margin-top: 250px;
+    color: black;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow:0 0 50px rgb(19, 27, 29);
+}
+input[type="email"],input[type="password"]{        /*input field styling*/
+    width: 200px;
+    height: 20px;
+    outline: none;
+    text-align: center;
+}

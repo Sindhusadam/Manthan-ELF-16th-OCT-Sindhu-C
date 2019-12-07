@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight COnverter</title>
+</head>
+<body>
+<fieldset style="margin-right: 1000px">
+    <h2>Weight Converter</h2>
+    
+    <p>
+        <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)"> <!--input in kg-->
+       <br>
+        <label>Kilograms</label>
+    </p>
+    <p>
+    Grams: <span id="outputGrams"></span>    <!--output in grams-->
+    <br>
+    <label>Grams</label>
+    </p>
+    <h5 style="color: orange;">Formula</h5>   
+    <h5>Multilply the mass value by 1000</h5>
+    
+    <script src="/weightConverter/weightconverter.js"></script> <!---external js -->
+</fieldset>
+</body>
+</html>

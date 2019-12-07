@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/store/createaccount.css">
+</head>
+<body>
+        <form action="#" name="Create account">               <!--input fields for creating acount-->
+                
+                <div id="name">
+                <h4>Name</h4>
+                <input type=text name=textnames id="textname" size="30" required>
+                </div>    
+                <br>
+                <div id="email">
+                <h4>Email Id</h4>
+                <input type="email" name="emailid" id="emailid" size="30" required>
+                </div>
+                <br>
+                <div id="password">
+                <h4>Password</h4>
+                <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required>
+                </div>
+                <br>
+                <div>
+                <h4>Confirm Password</h4>
+                <input type="password" name="password" id="password"size="30" required>
+                </div>
+                <br>
+                <div id="number">
+                <h4>Mobile Number</h4>
+                <input type="number" name="phone number" id="phone number"size="30" required>
+                </div>
+                <br>
+                <div>        
+                <td colspan="2"><input type="submit" value="Submit Form" /></td>
+                </div>
+                <div id="message">                                 <!--password validation-->
+                        <h4>password must contain</h4>
+                        <p id="letter" class="invalid">lowercase lettes letter</p>
+                        <p id="capital" class="invalid">capital (uppercase)letter</p>
+                        <p id="number" class="invalid">atleast one number</p>
+                        <p id="length" class="invalid">Minimum 6 characters</p>
+                </div>
+
+                <script src="/store/authenticatepassword.js"></script>
+                <script src="/store/store.js"></script>
+</body>
+</html>
